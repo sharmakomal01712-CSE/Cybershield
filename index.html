@@ -1,0 +1,281 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>Password Security Lab</title>
+
+    <!-- CSS File Linked -->
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+    <!-- Navigation Bar -->
+    <nav class="navbar">
+        <div class="logo">🔐 Password Security Lab</div>
+
+        <div class="nav-links">
+            <a href="#home">Home</a>
+            <a href="#analyzer">Analyzer</a>
+            <a href="#awareness">Awareness</a>
+            <a href="#tips">Security Tips</a>
+        </div>
+    </nav>
+
+
+    <!-- Home Section -->
+    <section id="home" class="hero">
+
+        <div class="hero-content">
+            <p class="tag">CYBERSECURITY AWARENESS</p>
+
+            <h1>
+                Check Your Password's
+                <span>Security</span>
+            </h1>
+
+            <p>
+                Analyze your password strength and learn how to
+                create stronger and safer passwords.
+            </p>
+
+            <a href="#analyzer" class="main-btn">
+                Check Password
+            </a>
+        </div>
+
+    </section>
+
+
+    <!-- Password Analyzer -->
+    <section id="analyzer" class="section">
+
+        <div class="section-heading">
+            <p class="small-title">PASSWORD ANALYZER</p>
+
+            <h2>How Strong Is Your Password?</h2>
+
+            <p>
+                Enter a password below to analyze its security.
+            </p>
+        </div>
+
+
+        <div class="analyzer-card">
+
+            <label for="password">
+                Enter Password
+            </label>
+
+            <div class="password-box">
+
+                <input
+                    type="password"
+                    id="password"
+                    placeholder="Enter your password"
+                >
+
+                <button id="togglePassword">
+                    👁
+                </button>
+
+            </div>
+
+
+            <!-- Strength Meter -->
+            <div class="strength-container">
+
+                <div class="strength-bar">
+                    <div id="strengthBar"></div>
+                </div>
+
+                <p id="strengthText">
+                    Strength: Not Checked
+                </p>
+
+            </div>
+
+
+            <!-- Password Requirements -->
+            <div class="requirements">
+
+                <h3>Password Analysis</h3>
+
+                <p id="lengthCheck">○ At least 8 characters</p>
+
+                <p id="uppercaseCheck">○ Contains uppercase letter</p>
+
+                <p id="lowercaseCheck">○ Contains lowercase letter</p>
+
+                <p id="numberCheck">○ Contains a number</p>
+
+                <p id="specialCheck">○ Contains special character</p>
+
+            </div>
+
+
+            <!-- Suggestions -->
+            <div class="suggestion-box">
+
+                <h3>💡 Security Suggestions</h3>
+
+                <p id="suggestion">
+                    Enter a password to get security suggestions.
+                </p>
+
+            </div>
+
+        </div>
+
+    </section>
+
+
+    <!-- Breach Awareness -->
+    <section id="awareness" class="section awareness">
+
+        <div class="section-heading">
+
+            <p class="small-title">
+                BREACH AWARENESS
+            </p>
+
+            <h2>What is a Password Breach?</h2>
+
+        </div>
+
+
+        <div class="awareness-grid">
+
+            <div class="info-card">
+
+                <div class="icon">⚠️</div>
+
+                <h3>Data Breach</h3>
+
+                <p>
+                    A data breach happens when unauthorized people
+                    gain access to protected information stored by
+                    a website or organization.
+                </p>
+
+            </div>
+
+
+            <div class="info-card">
+
+                <div class="icon">🔓</div>
+
+                <h3>Exposed Password</h3>
+
+                <p>
+                    If a password becomes exposed in a breach,
+                    attackers may try to use it to access accounts.
+                </p>
+
+            </div>
+
+
+            <div class="info-card">
+
+                <div class="icon">🛡️</div>
+
+                <h3>Stay Protected</h3>
+
+                <p>
+                    Use unique passwords, avoid password reuse and
+                    enable multi-factor authentication whenever
+                    possible.
+                </p>
+
+            </div>
+
+        </div>
+
+    </section>
+
+
+    <!-- Security Tips -->
+    <section id="tips" class="section tips-section">
+
+        <div class="section-heading">
+
+            <p class="small-title">
+                SECURITY TIPS
+            </p>
+
+            <h2>Build Better Password Habits</h2>
+
+        </div>
+
+
+        <div class="tips-grid">
+
+            <div class="tip-card">
+                <span>01</span>
+                <h3>Use Long Passwords</h3>
+                <p>
+                    Longer passwords are generally harder to guess.
+                </p>
+            </div>
+
+
+            <div class="tip-card">
+                <span>02</span>
+                <h3>Use Unique Passwords</h3>
+                <p>
+                    Avoid using the same password for multiple accounts.
+                </p>
+            </div>
+
+
+            <div class="tip-card">
+                <span>03</span>
+                <h3>Avoid Personal Information</h3>
+                <p>
+                    Do not use easily guessable information like
+                    names or birthdays.
+                </p>
+            </div>
+
+
+            <div class="tip-card">
+                <span>04</span>
+                <h3>Enable MFA</h3>
+                <p>
+                    Multi-factor authentication adds another layer
+                    of security to your accounts.
+                </p>
+            </div>
+
+        </div>
+
+    </section>
+
+
+    <!-- Footer -->
+    <footer>
+
+        <h3>🔐 Password Security Lab</h3>
+
+        <p>
+            Cybersecurity Awareness Project
+        </p>
+
+        <p>
+            Team: DK Cyber Shield
+        </p>
+
+        <p class="copyright">
+            © 2026 Password Security Lab
+        </p>
+
+    </footer>
+
+
+    <!-- JavaScript File Linked -->
+    <script src="script.js"></script>
+
+</body>
+</html>
